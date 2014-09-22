@@ -1,0 +1,34 @@
+@prefix dcmitype: http://purl.org/dc/dcmitype/
+@prefix dct:      http://purl.org/dc/terms/
+@prefix foaf:     http://xmlns.com/foaf/0.1/
+@prefix rdf:      http://www.w3.org/1999/02/22-rdf-syntax-ns#
+@prefix rdfs:     http://www.w3.org/2000/01/rdf-schema#
+
+Properties
+    dct:contributor    - "Entity responsible for making contributions to resource"
+    dct:creator        - "An entity primarily responsible for making the resource"
+                         => sub-property of dct:contributor
+    dct:date
+    dct:subject        - "topic of the resource"
+    dct:title          - "a name given to the resource"
+    dct:hasPart
+    dct:isPartOf
+    foaf:name
+    foaf:knows
+    foaf:homepage
+    foaf:maker         - "An agent who made this thing"
+    foaf:title         - "Title (Mr, Mrs, Ms, Dr, etc)"
+    rdf:type           - "The subject is an instance of a Class"
+    rdfs:comment       - "Description of the subject resource"
+    rdfs:subClassOf
+    rdfs:subPropertyOf
+
+Classes
+    dcmitype:Image
+    foaf:Document
+    foaf:Person
+    rdf:Property    - "The class of RDF properties"
+    rdfs:Class      - "The class of classes"
+    rdfs:Resource   - "The class resource, everything"
+
+    
