@@ -1,0 +1,1 @@
+ipython nbconvert ./2014-10-02.Week5b.ipynb --to slides --post serve
